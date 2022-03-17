@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2? family= Comic+Neue & display=swap');
+
+/*Style -> Index*/
+
+*{
+    text-decoration: none;
+    font-family:'Comic Neue', cursiva;
+}
+
+body {
+    background-color: orange;
+    color: black;
+  }
+
+#menu ul li{
+
+    display: inline;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 300px;
+}
+
+#menu ul li a{
+    color: black;   
+}
+
+#menu ul li a:hover{
+    color: red;
+}
+
+#titulo {
+    color: black;
+    text-align: left;
+    padding-left: 50px;
+}
+
+#titulo:hover {
+    color: red;
+}
+
+.centralizar {
+    text-align: left;
+    align-items: left;
+}
+
+.center{
+    text-align: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: right;
+    align-items: center;
+}
+    
+.container2{
+    display: flex;
+    flex-flow: row;
+    justify-content: flex-start;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: left;
+    align-items: center;
+}
+
+.br{
+    border-radius: 50%;
+}
+
+.br-animals{
+    border-bottom: 10000cm;
+}
+
+.Jogos{
+    padding-left: 50px;
+    align-items: left;
+    text-align: left;
+    align-items: center;
+}
+
+/*Style -> contato*/
+
+body {
+    background-color: orange;
+    color: black;
+  }
+
+#menu ul li{
+
+    display: inline;
+    font-size: 20px;
+    font-weight: 200;
+    padding: 300px;
+}
+
+#menu ul li a{
+    color: black;   
+}
+
+#menu ul li a:hover{
+    color: red;
+}
+
+#titulo {
+    color: black;
+    text-align: left;
+    padding-left: 50px;
+}
+
+#titulo:hover {
+    color: red;
+}
+
+.ml-50{
+    margin-left: 50px;
+}
