@@ -13,7 +13,6 @@ body {
   }
 
 #menu ul li{
-
     display: inline;
     font-size: 20px;
     font-weight: 200;
@@ -85,37 +84,24 @@ body {
 
 /*Style -> contato*/
 
-body {
-    background-color: orange;
-    color: black;
-  }
-
-#menu ul li{
-
-    display: inline;
-    font-size: 20px;
-    font-weight: 200;
-    padding: 300px;
+.containerContato{
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
 }
 
-#menu ul li a{
-    color: black;   
-}
-
-#menu ul li a:hover{
-    color: red;
-}
-
-#titulo {
+.tituloContato{
     color: black;
     text-align: left;
-    padding-left: 50px;
+    padding-left: 50px;   
 }
 
-#titulo:hover {
+#tituloContato:hover {
     color: red;
 }
 
-.ml-50{
+.ml-50 {
     margin-left: 50px;
+
 }
